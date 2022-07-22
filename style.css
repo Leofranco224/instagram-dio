@@ -34,6 +34,7 @@ body {
 
 .instagram-phone img {
     height: 50rem;
+    padding-bottom: 20%;
 }
 
 .instagram-continue {
@@ -43,6 +44,11 @@ body {
     flex-direction: column;
     width: 50%;
     min-height: 34rem;
+}
+
+.change-account{
+    display: flex;
+    gap: 5px;
 }
 
 .group {
@@ -85,6 +91,11 @@ body {
 
 .instagram-logout {
     color: #0095f6;
+    margin-top: 1rem;
+}
+
+.instagram-logout-text{
+    color: rgb(160, 160, 160);
     margin-top: 1rem;
 }
 
